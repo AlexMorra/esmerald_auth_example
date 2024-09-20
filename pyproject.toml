@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "esmerald-auth"
+version = "0.1.0"
+description = ""
+authors = []
+#readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.30.6"
+esmerald-simple-jwt = "^0.2.0"
+esmerald = "^3.4.1"
+edgy = {extras = ["postgres"], version = "^0.16.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
